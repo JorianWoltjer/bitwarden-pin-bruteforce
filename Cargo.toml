@@ -1,0 +1,23 @@
+[package]
+name = "bitwarden-pin"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+argon2 = "0.5.3"
+base64 = "0.21.0"
+clap = { version = "4.5.1", features = ["derive"] }
+hkdf = "0.12.3"
+hmac = { version = "0.12.1", features = ["std"] }
+pbkdf2 = "0.11.0"
+rand_core = { version = "0.6.4", features = ["std"] }
+rayon = "1.6.1"
+serde_json = "1.0.91"
+sha2 = "0.10.6"
+indicatif = { version = "*", features = ["rayon"] }
+colored = "2.1.0"
+
+[profile.test]
+opt-level = 3
