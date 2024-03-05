@@ -1,8 +1,8 @@
 # Bitwarden PIN Bruteforce
 
-**Brute force any Bitwarden PIN from storage or memory**
+**Brute force any Bitwarden PIN from storage or in-memory**
 
-> **Warning**:
+> **Warning**:  
 > This README is very incomplete still, I promise I'll make a proper one soon
 
 Default settings:
