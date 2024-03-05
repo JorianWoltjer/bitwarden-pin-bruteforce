@@ -2,7 +2,7 @@
 
 **Brute force any Bitwarden PIN from storage or in-memory**
 
-> **Warning**:  
+> [!WARNING]  
 > This README is very incomplete still, I promise I'll make a proper one soon
 
 Default settings:
