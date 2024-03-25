@@ -1,6 +1,5 @@
 use argon2::Argon2;
 use base64::prelude::*;
-use base64::Engine;
 use hkdf::Hkdf;
 use hmac::{Hmac, Mac};
 use indicatif::ParallelProgressIterator;

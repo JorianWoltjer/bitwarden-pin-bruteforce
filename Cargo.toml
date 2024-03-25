@@ -2,6 +2,14 @@
 name = "bitwarden-pin"
 version = "0.1.0"
 edition = "2021"
+authors = ["Jorian Woltjer (J0R1AN)"]
+license = "MIT OR Apache-2.0"
+description = "Brute force any Bitwarden PIN from storage or in-memory"
+readme = "README.md"
+homepage = "https://github.com/JorianWoltjer/bitwarden-pin-bruteforce"
+repository = "https://github.com/JorianWoltjer/bitwarden-pin-bruteforce"
+keywords = ["bitwarden", "pin", "brute-force", "pentesting", "tool"]
+categories = ["command-line-utilities"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
