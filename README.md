@@ -22,7 +22,7 @@ Or **download** and **extract** a pre-compiled binary from the [Releases](https:
 
 [![Bitwarden PIN Bruteforce - Example](https://asciinema.org/a/xoLRMg0ATo3Y69EOlx3frri7X.svg)](https://asciinema.org/a/xoLRMg0ATo3Y69EOlx3frri7X?autoplay=1)
 
-# Steps
+# Usage - Steps
 
 ## 1. Finding PIN-Encrypted User Key
 
@@ -63,11 +63,12 @@ chrome.extension.getBackgroundPage().bitwardenMain.memoryStorageService.store.ge
 bitwardenMain.memoryStorageService.store.get("state").accounts
 ```
 
-Tip: In this same console you can also read the disk storage through the following API:
-
-```js
-bitwardenMain.stateService.accountDiskCache._value
-```
+> [!TIP]
+> In this same console you can also read the disk storage through the following API:
+> 
+> ```js
+> bitwardenMain.stateService.accountDiskCache._value
+> ```
 
 ### Google Chrome: On Disk
 
